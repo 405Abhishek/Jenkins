@@ -17,5 +17,10 @@ pipeline{
 	}
 		}
 	}
+	post{
+		always{
+			echo "I have done it"
+		}
+	}
 	
 }
