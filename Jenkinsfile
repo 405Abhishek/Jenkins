@@ -21,6 +21,12 @@ pipeline{
 		always{
 			echo "I have done it"
 		}
+		success{
+			echo "its a success"
+		}
+		failure{
+			echo "we failed"
+		}
 	}
 	
 }
