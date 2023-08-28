@@ -33,6 +33,7 @@ pipeline{
 				echo "Integration test"
 			
 	}
+	}
 	
 	stage('Package') {
 			steps{
@@ -80,4 +81,4 @@ pipeline{
 	
 }
 }
-}
+
